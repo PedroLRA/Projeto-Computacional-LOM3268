@@ -12,5 +12,5 @@ scene = PendulumSim(body1, body2)
 scene.simulate([0,10], dt = 0.01)
 
 #Plot the scene
-scene.showScene(dtStepPerFrame=1, use_lines=True)
+scene.showScene(dtStepPerFrame=3, use_lines=True)
 
