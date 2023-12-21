@@ -134,7 +134,6 @@ class PendulumSim():
 
 if __name__ == "__main__":
     from body import CreateBodyPen
-    import matplotlib.pyplot  as plt
 
     body1 = CreateBodyPen(1,0, 1, 120, 10)
     body2 = CreateBodyPen(1,0, 1, -10, 10)

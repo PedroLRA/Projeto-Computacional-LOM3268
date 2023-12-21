@@ -128,7 +128,6 @@ class GravitySim():
 
 if __name__ == "__main__":
     from body import CreateBodyGrav
-    import matplotlib.pyplot  as plt
 
     sol = CreateBodyGrav(333000,position_vector=[0,0,0],velocity_vector=[0,0,0],acceleration_vector=[0,0,0],label = 'Sol',size=10)
     mercurio = CreateBodyGrav(0.0553,position_vector=[0.3074866310160428,0,0],velocity_vector=[0,12.43951652406417,0],acceleration_vector=[0,0,0],label = 'Mercúrio',size = 5)
