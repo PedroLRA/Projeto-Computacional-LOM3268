@@ -75,5 +75,8 @@ scene.simulate([0,10], dt = 0.01)
 ```python
 #Plot
 scene.showScene(dtStepPerFrame=4)
+
+#Export de df
+df = scene.exportDF()
 ```
 
