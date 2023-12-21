@@ -15,7 +15,7 @@ class GravitySim():
 
     """
 
-    def __init__(self, bodiesArray, G = 6.674184):
+    def __init__(self, bodiesArray, G = 6.6743e-11):
         self.bodies = bodiesArray
         self.numOfBodies = len(self.bodies)
         
