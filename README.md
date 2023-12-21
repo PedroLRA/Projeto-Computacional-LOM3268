@@ -39,6 +39,7 @@ obs: G is not a required parameter, in case it is not given, the SI will be used
 
 ```python
 scene.simulate([0, 15], dt=1e-3, method='verlet')
+#you may also chose the 'eqMov' method
 ```
 
 ### 4.4 Finally, generate the plot of the animation, or export the information of the dataframe:
