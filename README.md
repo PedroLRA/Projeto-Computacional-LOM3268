@@ -47,7 +47,7 @@ scene.simulate([0, 15], dt=1e-3, method='verlet')
 #Plot
 scene.showScene(dtStepPerFrame=4)
 
-#Export de df
+#Export the dataframe
 df = scene.exportDF()
 ```
 ## 5. Double pendulum systems:
